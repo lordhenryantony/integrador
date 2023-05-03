@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios
+
+    </title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <fieldset>
+                <legend>
+                    <h1>formularios</h1>
+                </legend>
+                <form metod="post" enctype="multipart/form-data">
+                    <div>
+                        <label for="nombre">nombre
+                        </label>
+                        <input name="nombre" id="nombre" type="text" maxlength="15" required />
+                    </div>
+                    <div>
+                        <label for="apellido">apellido
+                        </label>
+                        <input name="apellido" id="apellido" type="text" maxlength="50" required />
+                    </div>
+                    <div>
+                        <label>fecha de nac.:</label>
+                        <input type="date">
+                    </div>
+                    <div>
+                        <label for="nacionalidad">nacionalidad
+                        </label>
+
+                        <select>
+
+                            <option></option>
+                            <option>arg.</option>
+                            <option>bra.</option>
+                            <option>chi.</option>
+                            <option>uru.</option>
+                            <option>par.</option>
+                        </select>
+                        required
+                    </div>
+                    <div>
+                        <label for="" habla ingles?></label>habla ingles
+
+                        <input type="radio" name="habla ingles" value="si">si
+                        <input type="radio" name="habla ingles" value="no">no
+
+                    </div>
+                    <div>
+                        <label for="" intereses></label>intereses
+                        <br>
+                        <input type="checkbox" name="intereses" value="futbol">futbol >
+                        <br>
+                        <input type="checkbox" name="intereses" value="musica">musica >
+                    </div>
+                    <div>
+                        <label>avatar</label>
+                        <input type="file" name="avatar" </div>
+                        <div>
+                            <button>
+                                enviar
+                            </button>
+                        </div>
+            </fieldset>
+            </form>
+        </section>
+        <section>
+            <form>
+                <fieldset>
+                    <div>
+                    <input name ="clave unica"
+                    type="hidden"
+                    value="123456"
+                    id="clave unica"
+                </div>
+                
+                    <legend>
+                        otros tag
+                    </legend>
+                    <div>
+                    <label form="search"></label>buscar: </label>
+                    <input name"search"
+                    id="search"
+                    type"search">
+                    
+                        <button>buscar</button>
+                    
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
